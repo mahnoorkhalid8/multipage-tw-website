@@ -35,8 +35,7 @@ const Header = () => {
 
             {/* navigation for mobile */}
             <div className='md:hidden flex items-center'>
-                <IoMdMenu 
-                className="text-black text-3xl cursor-pointer" onClick={toggleMenu}/>
+                <IoMdMenu className="text-black text-3xl cursor-pointer" onClick={toggleMenu}/>
             </div>
 
             {/* menu for mobile */}
